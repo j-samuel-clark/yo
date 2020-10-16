@@ -2,11 +2,11 @@
 
 # Weirdly, yo doesn't overwrite it's old app; instead it makes a
 # localized folder. Just erase it first.
-rm -rf /Applications/Utilities/yo.app
-rm -rf /Applications/Utilities/yo
-rm -rf /Applications/Utilities/yo.localized
+rm -rf /usr/local/mollie/yo.app
+rm -rf /usr/local/mollie/yo
+rm -rf /usr/local/mollie/yo.localized
 
-WATCH_PATH="$3/var/run/com.sheagcraig.yo.on_demand.launchd"
+WATCH_PATH="$3/var/run/com.mollie.yo.on_demand.launchd"
 
 touch "$WATCH_PATH"
 chmod a+w "$WATCH_PATH"

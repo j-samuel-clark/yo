@@ -64,7 +64,7 @@ from SystemConfiguration import SCDynamicStoreCopyConsoleUser
 __version__ = "2.0.0"
 BUNDLE_ID = "com.sheagcraig.yo"
 WATCH_PATH = "/var/run/com.sheagcraig.yo.on_demand.launchd"
-YO_BINARY = "/Applications/Utilities/yo.app/Contents/MacOS/yo"
+YO_BINARY = "/usr/local/mollie/yo/yo.app/Contents/MacOS/yo"
 # This is captured straight from running the Yo binary and must be
 # updated manually.
 YO_HELP = """\

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>Label</key>
-  <string>com.sheagcraig.yo.on_demand</string>
+  <string>com.mollie.yo.on_demand</string>
   <key>LimitLoadToSessionType</key>
   <array>
     <string>Aqua</string>
@@ -15,7 +15,7 @@
   </array>
   <key>WatchPaths</key>
   <array>
-    <string>/var/run/com.sheagcraig.yo.on_demand.launchd</string>
+    <string>/var/run/com.mollie.yo.on_demand.launchd</string>
   </array>
 </dict>
 </plist>

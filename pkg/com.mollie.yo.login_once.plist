@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>Label</key>
-  <string>com.sheagcraig.yo.login_once</string>
+  <string>com.mollie.yo.login_once</string>
   <key>LimitLoadToSessionType</key>
   <array>
     <string>Aqua</string>
